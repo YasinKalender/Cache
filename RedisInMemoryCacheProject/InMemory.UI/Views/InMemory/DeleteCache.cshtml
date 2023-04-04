@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "DeleteCache";
+}
+
+<h1>Delete Cache</h1>
+
+
+@if (TempData["cacheValue"] == null)
+{
+
+
+    <p>Cache Bulunamadı..</p>
+}
+
+
+@ViewBag.callback

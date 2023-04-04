@@ -1,0 +1,16 @@
+﻿@model Dictionary<string,string>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+@foreach (var item in Model)
+{
+    @item.Key
+    <br />
+
+    @item.Value
+}
+
